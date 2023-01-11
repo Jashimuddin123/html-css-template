@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: ;
+    
+}
+header{
+    background-image: url(./imeges/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+background-position: center;
+padding-bottom: 50px;
+
+}
+.img-tag{
+    width: 60px;
+    height: 50px;
+    margin-left: 100px;
+}
+.nav-header{
+    display: flex;
+    justify-content: center;
+    
+   
+
+margin: 40px 40px;
+    padding: 30px;
+  color: white;
+  font-weight: bold;
+    width: 100%;
+    
+}
+.first-nav li{
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.first-ul{
+    display: flex;
+    list-style: none;
+    padding: 5px;
+   margin-right: auto;
+   text-align: center;
+   justify-content: center;
+   border: 1px solid gray;
+   border-right: 1px solid gray;
+   border-right: 5PX;
+}
+/* BANNER SECTION */
+.banner{
+text-align: center;
+color: white;
+font-weight: bold;
+margin-top: 30px;
+}
+.text-title{
+font-size: 24px;
+margin-top: 30px;
+
+}
+.text-font{
+font-size: 65px;
+margin-bottom: 30px;
+}
+.banner-div{
+   display: flex; 
+  justify-content: center;
+   text-align: center;
+   align-items: center;
+   padding: 10px;
+margin-right: 50px;
+}
+.btn{
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    background-color: deeppink;
+    border-radius: 50px;
+    border: 1px solid white;
+ 
+}
+.banner-div{
+    display: flex;
+justify-items: auto;
+}
+/* banner section */
+.banner-section{
+    width: 700px;
+    height: 150px;
+    background-color: white;
+   display: flex;
+   margin: auto;
+   justify-content: center;
+  align-items: end;
+  margin-top: 100PX;
+  padding: 30px;
+
+
+}
+
+/* this is awsome sction styl */
+.global-section{
+    padding: 3rem;
+    margin-top: 90PX;
+  
+ 
+   
+}
+.global-heading{
+  font-size: 45px;
+  text-align: center;
+  margin-top: 2px;
+
+}
+.global-ptag{
+  color: dimgrey;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
+   
+}
+.about-main-div{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.about-sub-div2{
+    width: 500px;
+}
+.about-sub-div2 h2{
+  font-size: 32px;  
+}
+.about-sub-div2 p{
+    color: dimgrey;
+    margin: 15px 0;
+}
+
+/* this what other section  */
+.global-section1{
+  background-color: black;
+  width: 100%;
+  height: 70vh;
+}
+.global-ptag1{
+    font-size: 25px;
+  text-align: center;
+padding-top: 20px;
+  color: white;
+}
+.global-heading1{
+    font-size: 45px;
+  text-align: center;
+  margin-top: 2px;
+  color: white;
+}
+.icon-section i{
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    padding: 30px;
+}
+.icon-section h2{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.other-main-section{
+    display: flex;
+    margin: 20 20px;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.icon-section{
+    width: 100px;
+    height: 100px;
+    border: 5px solid hotpink;
+    border-radius: 50%;
+}
+
+/* this is portfolio section  */
+
+.porfolio-section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: 0 5px 4px 0 grey;
+
+}
+.porfolio-sub-div{
+    margin-top: 30px;
+   justify-content: center;
+}
+
+/* our service styles  */
+.service-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.sub-container{
+    margin-top: 30px;
+    box-shadow: 4px 5px 8px 5px gray;
+    width: 190px;
+    height: 180px;
+    margin: auto;
+}
+.icone-custom{
+color: red;
+margin: 15px;
+font-size: 45px;
+}
+/* angles styles  */
+.main-angel-container{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 95px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.angel-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+text-align: center;
+align-items: center;
+box-shadow: 4PX 6px 6px 4px black;
+}
+.head-main-title{
+    font-size: 18px;
+    color: salmon;
+}
+.img-item{
+    width: 250px;
+    height: 200px;
+}
+.div-icone{
+    color: brown;
+    font-size: 20px;
+}
+.icone-container{
+gap: 20px;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+/* fun section styles */
+.other-main-section1{
+display: flex;
+justify-content: center;
+gap: 50px;
+text-align: center;
+align-items: center;
+
+}
+.icon-section1{
+    border-right: 1px solid white;
+padding: 20px;
+    margin-left: 10px;
+
+}
+.fun-heading{
+color: white;
+}
+.fun-sub-heading{
+    color: white;
+    
+}
+.fun-icone{
+    color: crimson;
+    font-size: 50px;
+}
+
+/* testomonial styles  */
+.clients-container{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+
+}
+.sub-clients-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 2px 3px 3px 4px gray;
+    padding: 10px;
+}
+.clients-img{
+    width: 80px;
+    border-radius: 50%;
+}
+/* intro video styles */
+.global-section2{
+    background-color: black;
+    width: 100%;
+    height: 50vh;
+}
+.intro-video{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+   text-align: center; 
+   align-items: center;
+}
+.fun-icone1{
+    display: flex;
+    justify-content: center;
+    color: crimson;
+    font-size: 80px;
+   margin-top: 100px;
+}
+.video-heading{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+/* blog sdection styles */
+.blog-main-container{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+padding: 20px;
+}
+.blog-container{
+    padding: 20px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.blog-img{
+    width: 230px;
+}
+.icone-blog{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+   margin-bottom: 10px;
+}
+.color-heading{
+    color: red;
+    font-size: 16px;main-contact-container
+}
+.head-title{
+    margin-bottom: 7px;
+}
+
+/* contact form sytyle  */
+.main-contact-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+   margin-left: 400px;
+    width: 800px;
+    box-shadow: 3px 0 6px 6px grey;
+  
+}
+.contact-custom{
+  color: orangered;
+  font-size: 20px;
+}
+.icone-contact{
+    width: 200px;
+    display: flex;
+ gap: 15px;
+ border-bottom: 1px solid gray;
+ padding: 20px;
+}
+.input-title{
+    width: 300px;
+    height: 25px;
+    padding: 7px;
+    margin: 15px;
+}
+.input-title1{
+width: 300px;
+height: 80px;
+margin: 15px;
+}
+.primary-btn{
+    color: white;
+    background-color: red;
+    width: 350px;
+    padding: 10px;
+    margin: 15px;
+}
+
+/* footer section styles  */
+.main-footer{
+   background-color: black;
+   width: 100%;
+   height: 60vh;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.fotter-title{
+    margin-top: 90px;
+    border-bottom: 1px solid wheat;
+    color: white;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.studio{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+.fotter-ptag{
+    color: white;
+    padding: 10px;
+}
+.dev-span{
+    color: crimson;
+}
+.footer-icon{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
